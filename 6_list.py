@@ -1,54 +1,48 @@
-
-'''list1 = [1, 2, 3]
-list2 = [1, "hello", [2, 3, 4], 5.4]
-print(list1)
-print(list2)
+# Creating an empty list:
+my_list = []
 
 
-for i in range(len(list2)):
-    print(list2[i])
+# Creating a list with values:
+my_list = [1, 2, 3, 4, 5]
 
 
-for i in list2:
-    print(i)
-'''
+# Accessing elements in a list:
+my_list = [1, 2, 3, 4, 5]
+print(my_list[0])  # Output: 1
+print(my_list[3])  # Output: 4
 
 
-'''list1 = [5, 8, 7, 2, -6, 9, 0]
+# Changing elements in a list:
+my_list = [1, 2, 3, 4, 5]
+my_list[2] = 6
+print(my_list)  # Output: [1, 2, 6, 4, 5]
 
-print(list1[2:6])
-print(list1[:3])  # list1[:3]
-print(list1[4:])  # list1[4:]
+
+# Slicing a list:
+my_list = [1, 2, 3, 4, 5]
+print(my_list[1:3])  # Output: [2, 3]
 
 
-output =
-[7, 2, -6, 9]
-[5, 8, 7]
-[-6, 9, 0]
-'''
+# Adding elements to a list:
+my_list = [1, 2, 3, 4, 5]
+my_list.append(6)
+print(my_list)  # Output: [1, 2, 3, 4, 5, 6]
 
-'''
-list1 = [5, 8, 7, 2, -6, 9, 0]
-print(list1)
-list1.append(59)
-print(list1)
-list1.insert(2, 99)
-print(list1)
-list1.remove(7)  # value
-print(list1)
-# list1.remove()
 
-list1.sort()
-print(list1)
+#Removing an element from a list:
+my_list = ["apple", "banana", "cherry"]
+my_list.remove("banana")
+print(my_list) # Output: ['apple', 'cherry']
 
-print(list1[-3])
-print(list1[2:-3])
 
-output:
-[5, 8, 7, 2, -6, 9, 0]
-[5, 8, 7, 2, -6, 9, 0, 59]
-[5, 8, 99, 7, 2, -6, 9, 0, 59]
-[5, 8, 99, 2, -6, 9, 0, 59]
-[-6, 0, 2, 5, 8, 9, 59, 99]
-9
-[2, 5, 8]'''
+#Sorting a list:
+my_list = [3, 1, 4, 1, 5, 9, 2, 6, 5]
+my_list.sort()
+print(my_list) # Output: [1, 1, 2, 3, 4, 5, 5, 6, 9]
+
+
+
+#Reversing a list:
+my_list = ["apple", "banana", "cherry"]
+my_list.reverse()
+print(my_list) # Output: ['cherry', 'banana', 'apple']
