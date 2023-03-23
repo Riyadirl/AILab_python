@@ -29,20 +29,19 @@ my_list.append(6)
 print(my_list)  # Output: [1, 2, 3, 4, 5, 6]
 
 
-#Removing an element from a list:
+# Removing an element from a list:
 my_list = ["apple", "banana", "cherry"]
 my_list.remove("banana")
-print(my_list) # Output: ['apple', 'cherry']
+print(my_list)  # Output: ['apple', 'cherry']
 
 
-#Sorting a list:
+# Sorting a list:
 my_list = [3, 1, 4, 1, 5, 9, 2, 6, 5]
 my_list.sort()
-print(my_list) # Output: [1, 1, 2, 3, 4, 5, 5, 6, 9]
+print(my_list)  # Output: [1, 1, 2, 3, 4, 5, 5, 6, 9]
 
 
-
-#Reversing a list:
+# Reversing a list:
 my_list = ["apple", "banana", "cherry"]
 my_list.reverse()
-print(my_list) # Output: ['cherry', 'banana', 'apple']
+print(my_list)  # Output: ['cherry', 'banana', 'apple']
