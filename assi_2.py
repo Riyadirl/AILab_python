@@ -72,12 +72,13 @@ def state_generation(current_state):
         print("Current state: ", current_state, "Cost: ", current_state_cost)
 
         # Initialize variables to keep track of the minimum cost and state
-        min_next_cost = float('inf')
+        min_next_cost = float(999999)
         min_next_state = None
 
         # Generate all possible next states by swapping each element with its next neighborr
         for i in range(len(current_state)-1):
             next_state = current_state.copy()
+
             # Swap the elements
             next_state[i], next_state[i+1] = next_state[i+1], next_state[i]
             # Shift the list to the right
