@@ -77,7 +77,7 @@ def state_generation(current_state):
 
         # Generate all possible next states by swapping each element with its next neighborr
         for i in range(len(current_state)-1):
-            next_state = current_state
+            next_state = current_state.copy()
             # Swap the elements
             next_state[i], next_state[i+1] = next_state[i+1], next_state[i]
             # Shift the list to the right
