@@ -14,6 +14,7 @@ plt.show()
 
 # Scatter Plot: Plotting a scatter plot of random data.
 
+
 x = np.random.rand(50)
 y = np.random.rand(50)
 colors = np.random.rand(50)
@@ -36,7 +37,6 @@ plt.ylabel("Frequency")
 plt.title("Histogram of Random Data")
 plt.show()
 
-
 # Bar Chart: Plotting a bar chart of a sample dataset.
 x = np.array(['A', 'B', 'C', 'D', 'E'])
 y = np.array([3, 5, 1, 7, 4])
@@ -49,7 +49,6 @@ plt.show()
 
 
 # Pie Chart: Plotting a pie chart of a sample dataset.
-
 x = np.array([25, 40, 10, 25])
 labels = ['A', 'B', 'C', 'D']
 
