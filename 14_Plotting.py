@@ -26,7 +26,7 @@ plt.title("Scatter Plot")
 plt.show()
 
 
-# Histogram: Plotting a histogram of a sample dataset
+# Histogram: Plotting a histogram of a sample datasett
 
 data = np.random.randn(1000)
 
