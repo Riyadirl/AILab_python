@@ -5,9 +5,9 @@ def example_function(lst):
     # Check if the list is empty
     if not lst:
         return None
-
     # Calculate the sum of the list
     total = sum(lst)
+
 
     # Find the maximum value in the list
     max_value = max(lst)
