@@ -14,7 +14,6 @@ plt.show()
 
 # Scatter Plot: Plotting a scatter plot of random data.
 
-
 x = np.random.rand(50)
 y = np.random.rand(50)
 colors = np.random.rand(50)
