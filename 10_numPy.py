@@ -52,8 +52,6 @@ arr2 = np.array([[5, 6], [7, 8]])
 print(np.concatenate((arr1, arr2)))  # Output: [[1 2] [3 4] [5 6] [7 8]]
 
 
-
-
 # Array operations:
 
 arr = np.array([1, 2, 3, 4, 5])
@@ -68,4 +66,4 @@ print(np.max(arr))  # Output: 5
 print(np.min(arr))  # Output: 1
 
 # Finding the mean of an array
-print(np.mean(arr))  # Output: 3.0
+print(np.mean(arr))  # Output: 3.00

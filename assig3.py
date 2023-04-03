@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 # Load iris dataset
 iris = pd.read_csv('iris.csv')
 
-# Convert labels to 0s and 1s
+# convert labels to 0s and 1s
 iris['species'] = (iris['species'] == 'versicolor').astype(int)
 
 # Split dataset into features and labels
@@ -36,5 +36,6 @@ for i in range(len(X_test)):
 
 # Calculate accuracy
 accuracy = np.mean(y_test_predicted == y_test)
+
 
 print(f"Test accuracy: {accuracy:.2f}")
