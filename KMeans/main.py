@@ -1,4 +1,7 @@
 import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+%matplotlib inline
 
 # Load data from jain_feats.txt into a 2D numpy array X
 X = np.loadtxt('jain_feats.txt')
