@@ -41,6 +41,7 @@ my_list.sort()
 print(my_list)  # Output: [1, 1, 2, 3, 4, 5, 5, 6, 9]
 
 
+#.
 # Reversing a list:
 my_list = ["apple", "banana", "cherry"]
 my_list.reverse()

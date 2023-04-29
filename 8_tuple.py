@@ -13,7 +13,6 @@ print(my_tuple[0])
 print(my_tuple[3])
 # Output: 'four'
 
-
 # Tuples can also be unpacked into individual variables:
 my_tuple = (1, 2, 3)
 a, b, c = my_tuple
